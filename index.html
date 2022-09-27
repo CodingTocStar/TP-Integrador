@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="estilo/estilo.css">
+
+    <title>Front-END - El TP Integrador</title>
+  </head>
+  <body>
+    <h1>Second try, la primera fue un desastre, here goes nothing!</h1>
+
+
+    <!--================================-->
+    <!--        BARRA NAVEGACION        -->
+    <!--================================-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+            <a class="nav-link" href="#">Los oradores</a>
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+            <a class="nav-link" href="#">Convertite en orador</a>
+            <a class="nav-link text-warning fw-bold" href="#">Comprar tickets</a>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--================================-->
+    <!--           CARRUSEL             -->
+    <!--================================-->
+      
+  
+  <div class="carousel-inner">
+    <div>
+      <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRqc79XsVXU4gALwRu9sU9SkBvF16FLTudA_Vpgq4vw8SH-iRsJzm2Yu6ZAqNqMZxXX" class="d-block w-100 carrusel" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       <div id="texto-carrusel"> 
+          <h5>Conferencia Bs As</h5>
+          <p>Llega por primera vez a la Argentina un grupo de carismaticos expertos a compartir sus grandes conocimientos. Veni a conocer a otros estudiandes de Codo a Codo y compartir experiencias. Te esperamos!</p>
+          <button>Quiero ser orador</button>
+          <button class="bg-success text-white">Comprar tickets</button>
+        </div>
+      </div>
+    </div>
+    
+      </div>
+    </div>
+  </div>
+</div>
+     
+
+    <!--================================-->
+    <!--           PRINCIPAL            -->
+    <!--================================-->
+
+
+    <div class="container mt-3">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+          
+        </div>
+        <div class="col-md-auto">
+          <p>CONOCE A LOS</p>
+        </div>
+        <div class="col col-lg-2">
+          
+        </div>
+      </div>
+    </div>
+      <div class="container mb-5">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            
+          </div>
+          <div class="col-md-auto">
+            <h1>ORADORES</h1>
+          </div>
+          <div class="col col-lg-2">
+            
+          </div>
+        </div>
+
+      </div>
+    <!--================================-->
+    <!--            CARTAS              -->
+    <!--================================-->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://www.biografiasyvidas.com/biografia/j/fotos/jobs_steve_3.jpg" class="card-img-top img-thumbnail carta-espacio bg-black" alt="...">
+          <div class="card-body bg-black">
+            <h5 class="card-title text-white">Steve Jobs</h5>
+            <p class="card-text  text-light">Steven Paul Jobs ​​​​ fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company.​</p>
+          </div>
+          <div class="card-footer bg-white">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://ep01.epimg.net/especiales/2021/entrevista-bill-gates/img/bill.jpg" class="card-img-top img-thumbnail bg-danger carta-espacio" alt="...">
+          <div class="card-body bg-danger text-warning">
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">William Henry Gates III es un empresario, informático y filántropo estadounidense, conocido por haber creado y fundado junto con Paul Allen, la empresa Microsoft. De igual forma es conocido por haber creado, también con Paul Allen, el sistema operativo para computadoras Windows.  
+            </p>
+          </div>
+          <div class="card-footer bg-white">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card carta-ada">
+          <img src="data:image/jpeg;base64,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" class="card-img-top img-thumbnail carta-espacio carta-ada" alt="...">
+          <div class="card-body carta-ada">
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">Augusta Ada King, condesa de Lovelace, registrada al nacer como Augusta Ada Byron y conocida habitualmente como Ada Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
+          </div>
+          <div class="card-footer bg-white">
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--================================-->
+    <!--            IMAGENES            -->
+    <!--================================-->
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col imagen-grande">
+          <img src="https://touristear.com/wp-content/uploads/2015/04/mar-del-plata-argentina.jpg">
+        </div>
+        <div class="col imagen-grande">
+          <h2></h2>
+          <p></p>
+          <button></button>
+        </div>
+      </div>
+    </div>
+
+    <!--================================-->
+    <!--            INSCRIPCION         -->
+    <!--================================-->
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+          
+        </div>
+        <div class="col-md-auto">
+          <p>CONVIERTETE EN UN</p>
+        </div>
+        <div class="col col-lg-2">
+          
+        </div>
+      </div>
+    </div>
+
+    <!--=========== CONTAINER  ============-->
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+            
+        </div>
+        <div class="col-md-auto">
+          <h1>ORADOR</h1>
+        </div>
+        <div class="col col-lg-2">
+            
+        </div>
+      </div>
+
+    </div>
+
+    <!--=========== CONTAINER  ============-->
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+            
+        </div>
+        <div class="col-md-auto">
+          <p>Anotate como orador para dar una charla ignite. Contanos de que queres hablar!</p>
+        </div>
+        <div class="col col-lg-2">
+            
+        </div>
+      </div>
+
+    </div>
+
+     <!--=========== FORMULARIO  ============-->
+    <div class="container">
+      <div class="row g-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
+        <small>Recuerda incluir el titulo de tu charla.</small>
+      </div>
+      <button type="button" class="btn boton-largo">Enviar</button>
+
+    </div>
+
+    <!--======================================-->
+    <!--=======       FOOTER      ============-->
+    <!--======================================-->
+    <footer class="footer">
+      <div class="row align-items-center">
+        <div class="col">
+          One of three columns
+        </div>
+        <div class="col">
+          One of three columns
+        </div>
+        <div class="col">
+          One of three columns
+        </div>
+      </div>
+      <!--<div class="container bg-primary text-white fs-6">
+        <div class="row row-cols-7">
+          <div class="col">
+            <p>Preguntas</p>
+            <p>frecuentes</p>
+          </div>
+          <div class="col">
+            <p>Contactanos</p>
+          </div>
+          <div class="col">
+            <p>Prensa</p>
+          </div>
+          <div class="col">
+            <p>Conferencias</p>
+          </div>
+          <div class="col">
+            <p>Términos y</p>
+            <p>condiciones</p>
+          </div>
+          <div class="col">
+            <p>Privacidad</p>
+          </div>
+          <div class="col">
+            <p>Estudiantes</p>
+          </div>
+        </div>
+      </div>-->
+    </footer>
+
+
+
+
+
+    
+
+    
+    
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

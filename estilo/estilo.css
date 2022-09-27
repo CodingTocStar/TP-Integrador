@@ -1,0 +1,46 @@
+a{
+    color: antiquewhite !important; 
+}
+.carrusel{
+  max-height: 25em;
+}
+
+.carta-ada{
+  background:blueviolet !important;
+  color:white;
+} 
+  
+.footer{
+    width: 100%;
+
+    margin-top: 2rem;
+    background-color: aqua !important;
+    color:blue !important;
+}
+
+/*#texto-imagen{
+    margin-left: 50px;
+}*/
+
+#texto-carrusel{ 
+   color: gold;
+   
+    text-align: end;
+    position: absolute !important;
+    top: -130px;
+    right: -90px;
+    font-weight: bold;
+}
+
+.carta-espacio{
+    width: 400px !important;
+    height: 300px !important;
+}
+
+.boton-largo{
+    width: 100%;
+    background-color: green;
+    color: aliceblue;
+    font-weight: 700
+
+}
